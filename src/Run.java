@@ -33,6 +33,7 @@ public class Run {
         books[7] = new FictionBook("1234567", 80);
         books[8] = new FictionBook("123456", 90);
         books[9] = new FictionBook("12345", 210);
+        System.out.println("Hello, I'm Jigsaw. Let's go!");
         System.out.printf("the total price is %d $\n", Run.getTotalPrice(books));
         System.out.print("enter a language to find the number of books involve: ");
         String language = new Scanner(System.in).nextLine();
